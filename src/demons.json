@@ -1,0 +1,464 @@
+[
+  {
+    "name": "Jackalope",
+    "level": 1,
+    "realmRarity": { "hominum": "Very Common", "orc": "Common" },
+    "element": "None (caprid demon, very fast)",
+    "notes": "Common prey demon (hare with antlers); considered too weak for serious combat"
+  },
+  {
+    "name": "Pyrausta",
+    "level": 2,
+    "realmRarity": { "hominum": "Endangered", "orc": "Very Rare" },
+    "element": "Insect-lizard, color-changing wings",
+    "notes": "Lizard–insect hybrid with chameleon wings; extremely rare"
+  },
+  {
+    "name": "Lesser Mite",
+    "level": 1,
+    "realmRarity": { "hominum": "Very Common", "orc": "Common" },
+    "element": "Insect (Anthropid), flying scout",
+    "notes": "Most common demon in Hominum’s part of the ether – ubiquitous food source and scout"
+  },
+  {
+    "name": "Scarab Mite",
+    "level": 1,
+    "realmRarity": { "hominum": "Very Common", "orc": "Very Common" },
+    "element": "Insect, flying with venomous sting",
+    "notes": "Large beetle demon; powerful mandibles and paralytic sting, used by summoners as scouts"
+  },
+  {
+    "name": "Will-o’-Wisp",
+    "level": 1,
+    "realmRarity": { "hominum": "Common", "orc": "Common" },
+    "element": "Elemental (Glowing orb), Blood Drain",
+    "notes": "Blue-green elemental glowworm; leads prey into traps and drains blood"
+  },
+  {
+    "name": "Lavellan",
+    "level": 2,
+    "realmRarity": { "hominum": "Uncommon", "orc": "Common" },
+    "element": "Reptilian rodent with venomous fangs",
+    "notes": "Venomous rat-like demon; common among Orc shamans (swamp habitat)"
+  },
+  {
+    "name": "Baku",
+    "level": 3,
+    "realmRarity": { "hominum": "Uncommon", "orc": "Uncommon" },
+    "element": "Megafaun (elephant-trunk pig)",
+    "notes": "Tapir-like demon (tiger-striped, elephant trunk); herbivore prey, not used by most summoners"
+  },
+  {
+    "name": "Damsel (Wyvern)",
+    "level": 3,
+    "realmRarity": { "hominum": "Very Common", "orc": "Very Common" },
+    "element": "Insect (flying, paralytic sting)",
+    "notes": "Giant dragonfly demon with potent sting; common throughout the known ether"
+  },
+  {
+    "name": "Kamaitachi",
+    "level": 3,
+    "realmRarity": { "hominum": "Rare", "orc": "Common" },
+    "element": "Rodent (weasel-like), claw blades",
+    "notes": "Large weasel demon with bone claws; relatively common in the orcish part of the ether, attacks Hominum’s front lines"
+  },
+  {
+    "name": "Kappa",
+    "level": 3,
+    "realmRarity": { "hominum": "Uncommon", "orc": "Uncommon" },
+    "element": "Aquarine (amphibious toad)",
+    "notes": "Aquatic frog-toad demon; common among water demons but weak (prey to sharks)"
+  },
+  {
+    "name": "Bildad",
+    "level": 4,
+    "realmRarity": { "hominum": "Rare", "orc": "Rare" },
+    "element": "Amphibious platypus-like (venomous spurs)",
+    "notes": "Venomous swamp demon; rare amphibious creature with paralyzing spurs"
+  },
+  {
+    "name": "Coatl",
+    "level": 4,
+    "realmRarity": { "hominum": "Uncommon", "orc": "Uncommon" },
+    "element": "Reptile/Avian (gliding serpent, venom)",
+    "notes": "Feathered serpent demon; glides from trees and uses poison to constrict prey"
+  },
+  {
+    "name": "Criosphinx",
+    "level": 4,
+    "realmRarity": { "hominum": "Uncommon", "orc": "Uncommon" },
+    "element": "Felidae/Caprid (lion-ram hybrid)",
+    "notes": "Small lion-ram hybrid; smaller cousin of the Manticore/Chimera"
+  },
+  {
+    "name": "Gryphowl",
+    "level": 4,
+    "realmRarity": { "hominum": "Rare", "orc": "Rare" },
+    "element": "Avian/Felidae (cat-owl hybrid)",
+    "notes": "Cat-owl demon, related to griffins; extremely rare and intelligent"
+  },
+  {
+    "name": "Gunni",
+    "level": 4,
+    "realmRarity": { "hominum": "Common", "orc": "Common" },
+    "element": "Megafaun (wombat-bear)",
+    "notes": "Bear-sized wombat demon; fairly common burrower with digging claws"
+  },
+  {
+    "name": "Lutra",
+    "level": 4,
+    "realmRarity": { "hominum": "Common", "orc": "Common" },
+    "element": "Rodentia (otter-like aquatic)",
+    "notes": "Otter-like demon with spiked tail; lives in lakes/rivers (avid swimmer)"
+  },
+  {
+    "name": "Ropen",
+    "level": 4,
+    "realmRarity": { "hominum": "Common", "orc": "Common" },
+    "element": "Reptilia/Aves (bat-bird)",
+    "notes": "Flying bat–bird hybrid with long beak; medium predator in ether skies"
+  },
+  {
+    "name": "Shrike",
+    "level": 4,
+    "realmRarity": { "hominum": "Migratory", "orc": "Migratory" },
+    "element": "Aves (migratory raptor)",
+    "notes": "Black-feathered bird demon; yearly migratory swarms in Hominum’s skies"
+  },
+  {
+    "name": "Strix",
+    "level": 4,
+    "realmRarity": { "hominum": "Migratory", "orc": "Common" },
+    "element": "Aves (owl-like, four-limbed)",
+    "notes": "Four-limbed owl demon; common in ether but vicious and rarely captured"
+  },
+  {
+    "name": "Veo",
+    "level": 4,
+    "realmRarity": { "hominum": "Rare", "orc": "Rare" },
+    "element": "Megafaun (armored porcupine)",
+    "notes": "Armadillo-hedgehog demon; rare, can roll into spiky armored ball"
+  },
+  {
+    "name": "Vesp",
+    "level": 4,
+    "realmRarity": { "hominum": "Uncommon", "orc": "Very Common" },
+    "element": "Insect (giant wasp, paralytic sting)",
+    "notes": "Swarm-dwelling wasp demon; very common and a favorite among Orc shamans"
+  },
+  {
+    "name": "Yale",
+    "level": 4,
+    "realmRarity": { "hominum": "Very Common", "orc": "Very Common" },
+    "element": "Caprids (cow-deer hybrid, horn drills)",
+    "notes": "Cow/deer hybrid demon; common, agile, with curving horns that spin like drills"
+  },
+  {
+    "name": "Catoblepas",
+    "level": 5,
+    "realmRarity": { "hominum": "Rare", "orc": "Rare" },
+    "element": "Caprids (poison-breath bovine)",
+    "notes": "Dangerous herbivore demon; bovine-warthog shape, breathes toxic fumes"
+  },
+  {
+    "name": "Chamrosh",
+    "level": 5,
+    "realmRarity": { "hominum": "Uncommon", "orc": "Uncommon" },
+    "element": "Aves/Canidae (hawk-dog)",
+    "notes": "Loyal hawk-dog demon; smaller cousin of the griffin, favored by the Celestial Corps"
+  },
+  {
+    "name": "Cockatrice",
+    "level": 5,
+    "realmRarity": { "hominum": "Rare", "orc": "Rare" },
+    "element": "Reptilia/Aves (rooster-lizard)",
+    "notes": "Dragon-like bird-lizard; large predator with talons and beak"
+  },
+  {
+    "name": "Encantado",
+    "level": 5,
+    "realmRarity": { "hominum": "Rare", "orc": "Uncommon" },
+    "element": "Aquarine (dolphin-like, water spray)",
+    "notes": "Dolphin-like water demon; very rare in Hominum (only appears in its rivers)"
+  },
+  {
+    "name": "Enfield",
+    "level": 5,
+    "realmRarity": { "hominum": "Rare", "orc": "Rare" },
+    "element": "Aves/Canidae (fox-eagle-wolf hybrid)",
+    "notes": "Dog-sized hybrid (fox head, eagle forelegs, wolf hindlegs); rare mid-level predator"
+  },
+  {
+    "name": "Kelpie",
+    "level": 5,
+    "realmRarity": { "hominum": "Uncommon", "orc": "Uncommon" },
+    "element": "Equine/Reptile (sea horse)",
+    "notes": "Scaled sea-horse demon; amphibious predator, weak on land"
+  },
+  {
+    "name": "Leucrotta",
+    "level": 5,
+    "realmRarity": { "hominum": "Uncommon", "orc": "Uncommon" },
+    "element": "Megafaun (zebra-badger)",
+    "notes": "Badger-like zebra demon; hunts at dusk, once common in Hominum"
+  },
+  {
+    "name": "Musimon",
+    "level": 5,
+    "realmRarity": { "hominum": "Common", "orc": "Common" },
+    "element": "Caprids/Equine (goat-horse)",
+    "notes": "Two-headed goat-horse with four horns; used as mounts by Dragoon corps"
+  },
+  {
+    "name": "Raiju",
+    "level": 5,
+    "realmRarity": { "hominum": "Endangered", "orc": "Rare" },
+    "element": "Rodentia (lightning)",
+    "notes": "Rare lightning squirrel/mongoose demon; only five have been captured in Hominum’s history"
+  },
+  {
+    "name": "Salamander",
+    "level": 5,
+    "realmRarity": { "hominum": "Extinct", "orc": "Endangered" },
+    "element": "Reptilia (fire-breathing)",
+    "notes": "Fire-breathing lizard; does not exist in Hominum’s part of the ether (captured only by orcs, extremely rare)"
+  },
+  {
+    "name": "Slepnir",
+    "level": 5,
+    "realmRarity": { "hominum": "Rare", "orc": "Rare" },
+    "element": "Equine (eight-legged horse)",
+    "notes": "Eight-legged horse demon; legendary Dragoon mount, high speed and stamina"
+  },
+  {
+    "name": "Arach",
+    "level": 6,
+    "realmRarity": { "hominum": "Rare", "orc": "Rare" },
+    "element": "Arthropod (giant spider, venom/bristles)",
+    "notes": "Giant spider demon with web, venomous sting and bristling hairs"
+  },
+  {
+    "name": "Barkling",
+    "level": 6,
+    "realmRarity": { "hominum": "Common", "orc": "Common" },
+    "element": "Viridae (tree badger, camouflage)",
+    "notes": "Badger-like forest demon; bark-like skin for camouflage and shooting paralytic spines"
+  },
+  {
+    "name": "Hippalectryon",
+    "level": 6,
+    "realmRarity": { "hominum": "Uncommon", "orc": "Uncommon" },
+    "element": "Equine/Aves (horse-rooster hybrid)",
+    "notes": "Horse body, rooster front, taloned hind legs; uncommon Dragoon mount"
+  },
+  {
+    "name": "Naga",
+    "level": 6,
+    "realmRarity": { "hominum": "Rare", "orc": "Rare" },
+    "element": "Aquarine/Reptilia (snake-human)",
+    "notes": "Snake-human hybrid; weak on land, has prehensile hands and catfish whiskers"
+  },
+  {
+    "name": "Shrike Matriarch",
+    "level": 6,
+    "realmRarity": { "hominum": "Migratory", "orc": "Migratory" },
+    "element": "Aves (giant shrike)",
+    "notes": "Queen of the shrike flock; double-sized migratory leader (carnivore)"
+  },
+  {
+    "name": "Vulpid",
+    "level": 6,
+    "realmRarity": { "hominum": "Uncommon", "orc": "Uncommon" },
+    "element": "Canidae (three-tailed fox)",
+    "notes": "Fox-like demon with three tails; agile and related to the common Canid"
+  },
+  {
+    "name": "Caladrius",
+    "level": 7,
+    "realmRarity": { "hominum": "Very Rare", "orc": "Very Rare" },
+    "element": "Aves (healing dove)",
+    "notes": "White dove-like elemental; rare healer (associated with winds/clouds)"
+  },
+  {
+    "name": "Canid",
+    "level": 7,
+    "realmRarity": { "hominum": "Common", "orc": "Common" },
+    "element": "Canidae (four-eyed dog)",
+    "notes": "Four-eyed dog demon; varies from large dog to pony size, common carnivore"
+  },
+  {
+    "name": "Felid",
+    "level": 7,
+    "realmRarity": { "hominum": "Common", "orc": "Common" },
+    "element": "Felidae (four-eyed cat)",
+    "notes": "Bipedal cat demon with four eyes; intelligent jungle predator"
+  },
+  {
+    "name": "Halcyon",
+    "level": 7,
+    "realmRarity": { "hominum": "Very Rare", "orc": "Very Rare" },
+    "element": "Aves (lightning bird)",
+    "notes": "Bird with lightning powers; most common elemental bird, but still very rare"
+  },
+  {
+    "name": "Kirin",
+    "level": 7,
+    "realmRarity": { "hominum": "Rare", "orc": "Rare" },
+    "element": "Equine/Reptile (scaled horse)",
+    "notes": "Armored horse-dragon hybrid with branching antler; rare Dragoon mount"
+  },
+  {
+    "name": "Phoenix",
+    "level": 7,
+    "realmRarity": { "hominum": "Very Rare", "orc": "Very Rare" },
+    "element": "Aves (firebird)",
+    "notes": "Legendary firebird demon; breathes flames, inhabits volcanoes (extremely rare)"
+  },
+  {
+    "name": "Polarion",
+    "level": 7,
+    "realmRarity": { "hominum": "Very Rare", "orc": "Very Rare" },
+    "element": "Aves (ice bird)",
+    "notes": "Ice-element bird; can freeze enemies, lives in high clouds (extremely rare)"
+  },
+  {
+    "name": "Alicorn",
+    "level": 8,
+    "realmRarity": { "hominum": "Migratory", "orc": "Migratory" },
+    "element": "Caprids/Aves (winged unicorn)",
+    "notes": "Flying unicorn; herds migrate across Hominum once per decade"
+  },
+  {
+    "name": "Anubid",
+    "level": 8,
+    "realmRarity": { "hominum": "Very Rare", "orc": "Very Rare" },
+    "element": "Canidae (jackal-headed)",
+    "notes": "Rare jackal-headed demon; two-legged, very agile fighter"
+  },
+  {
+    "name": "Dryad",
+    "level": 8,
+    "realmRarity": { "hominum": "Very Rare", "orc": "Very Rare" },
+    "element": "Viridae (tree humanoid)",
+    "notes": "Tree-like demon; can regrow limbs and heal, hides in forests"
+  },
+  {
+    "name": "Enenra",
+    "level": 8,
+    "realmRarity": { "hominum": "Rare", "orc": "Rare" },
+    "element": "Elemental (shadow mist, life-drain)",
+    "notes": "Floating shadow demon; drains life from those it touches"
+  },
+  {
+    "name": "Golem",
+    "level": 8,
+    "realmRarity": { "hominum": "Endangered", "orc": "Endangered" },
+    "element": "Elemental (stone)",
+    "notes": "Living stone humanoid; high durability, extremely rare"
+  },
+  {
+    "name": "Hippogriff",
+    "level": 8,
+    "realmRarity": { "hominum": "Migratory", "orc": "Migratory" },
+    "element": "Aves/Equine (eagle-horse)",
+    "notes": "Eagle-horse demon; flies and strikes with beak/hooves (popular Celestial Corps mount)"
+  },
+  {
+    "name": "Hydra",
+    "level": 8,
+    "realmRarity": { "hominum": "Endangered", "orc": "Endangered" },
+    "element": "Reptilia (three-headed)",
+    "notes": "Three-headed reptile; was once common in Hominum, now extremely rare"
+  },
+  {
+    "name": "Lycan",
+    "level": 8,
+    "realmRarity": { "hominum": "Very Rare", "orc": "Very Rare" },
+    "element": "Canidae (wolf-headed)",
+    "notes": "Wolf-man demon; stronger than Anubid but very rare in the wild"
+  },
+  {
+    "name": "Sylph",
+    "level": 8,
+    "realmRarity": { "hominum": "Very Rare", "orc": "Very Rare" },
+    "element": "Elemental (wind cloud, healing)",
+    "notes": "Misty air elemental; no physical attacks but can heal (rarest of Enenra’s kin)"
+  },
+  {
+    "name": "Tarasque",
+    "level": 8,
+    "realmRarity": { "hominum": "Uncommon", "orc": "Uncommon" },
+    "element": "Reptilia (armored tortoise)",
+    "notes": "Six-legged tortoise demon; spiked shell (dwells in desert)"
+  },
+  {
+    "name": "Tikbalang",
+    "level": 8,
+    "realmRarity": { "hominum": "Rare", "orc": "Rare" },
+    "element": "Equine (horse-headed)",
+    "notes": "Horse-headed demon; once popular with Orc shamans, now uncommon"
+  },
+  {
+    "name": "Bunyip",
+    "level": 9,
+    "realmRarity": { "hominum": "Rare", "orc": "Rare" },
+    "element": "Megafauns/Rodentia (giant swamp)",
+    "notes": "Giant swamp rat; fur holds moss for camouflage, drowns prey"
+  },
+  {
+    "name": "Nanaue",
+    "level": 9,
+    "realmRarity": { "hominum": "Uncommon", "orc": "Rare" },
+    "element": "Aquarine (shark humanoid)",
+    "notes": "Shark-like demon; favored by Orc shamans for its ferocity"
+  },
+  {
+    "name": "Peryton",
+    "level": 9,
+    "realmRarity": { "hominum": "Migratory", "orc": "Migratory" },
+    "element": "Aves/Caprids (winged stag)",
+    "notes": "Winged stag demon; most common flying steed for Hominum (herds migrate)"
+  },
+  {
+    "name": "Sobek",
+    "level": 9,
+    "realmRarity": { "hominum": "Common", "orc": "Common" },
+    "element": "Reptilia (crocodile humanoid)",
+    "notes": "Bipedal crocodile demon; common in swamps/rivers, camouflages in water"
+  },
+  {
+    "name": "Ahool",
+    "level": 10,
+    "realmRarity": { "hominum": "Very Rare", "orc": "Very Rare" },
+    "element": "Rodentia (giant bat)",
+    "notes": "Giant bat demon; extremely rare tracker (used by powerful Orc shamans)"
+  },
+  {
+    "name": "Griffin",
+    "level": 10,
+    "realmRarity": { "hominum": "Migratory", "orc": "Migratory" },
+    "element": "Aves/Felidae (lion-eagle)",
+    "notes": "Lion-bodied eagle demon; occasionally flies into Hominum’s skies (very rare)"
+  },
+  {
+    "name": "Oni",
+    "level": 10,
+    "realmRarity": { "hominum": "Rare", "orc": "Rare" },
+    "element": "Ape-like (horned)",
+    "notes": "Red-skinned demon (ogre-like); strong and commonly used by veteran Orc shamans"
+  },
+  {
+    "name": "Abaia",
+    "level": 11,
+    "realmRarity": { "hominum": "Uncommon", "orc": "Uncommon" },
+    "element": "Aquarine (eel with lightning)",
+    "notes": "Four-legged eel demon; can shock with electricity but weak on land"
+  },
+  {
+    "name": "Chimera",
+    "level": 11,
+    "realmRarity": { "hominum": "Rare", "orc": "Rare" },
+    "element": "Caprids/Felidae/Reptilia (lion-goat-snake)",
+    "notes": "Three-headed hybrid; lion-goat-snake demon with venomous snake tail"
+  }
+]
