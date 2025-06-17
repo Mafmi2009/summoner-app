@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import demonsData from "./demons.json";
 import { Demon, Region } from "./types";
 import { summonDemon } from "./summoningLogic";
+import GothicCorner from "./GothicCorner";
+import "./App.css";
 
 const REGIONS: Region[] = ["hominum", "orc"];
 
@@ -21,7 +23,11 @@ function App() {
   };
 
   return (
-    <div style={{ maxWidth: 600, margin: "auto", padding: 16 }}>
+    <div className="gothic-container" style={{ position: "relative" }}>
+      <GothicCorner className="gothic-corner top-left" />
+      <GothicCorner className="gothic-corner top-right" />
+      <GothicCorner className="gothic-corner bottom-left" />
+      <GothicCorner className="gothic-corner bottom-right" />
       <h1>Summoner: Demon Summoning Simulator</h1>
       <div>
         <label>
@@ -38,11 +44,11 @@ function App() {
           </select>
         </label>
       </div>
-      <button style={{ margin: "16px 0" }} onClick={handleSummon}>
+      <button className="scroll-button" onClick={handleSummon}>
         Summon Demon
       </button>
       {lastDemon && (
-        <div style={{ border: "1px solid #333", padding: 12, marginBottom: 16 }}>
+        <div className="summoned-demon">
           <h2>Summoned:</h2>
           <b>{lastDemon.name}</b> (Level {lastDemon.level})<br />
           Rarity: {lastDemon.realmRarity[region]} <br />
@@ -52,7 +58,7 @@ function App() {
       )}
       <div>
         <h3>Summon History</h3>
-        <div style={{ maxHeight: 200, overflowY: "auto", border: "1px solid #ccc", padding: 8 }}>
+        <div className="summon-history">
           {summonHistory.length === 0 && <i>No summons yet.</i>}
           {summonHistory.map((d, i) => (
             <div key={i}>

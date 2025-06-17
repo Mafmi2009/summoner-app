@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+
+body {
+  background: #191414 url('https://www.transparenttextures.com/patterns/dark-mosaic.png');
+  color: #e0d6c3;
+  font-family: 'UnifrakturCook', 'Times New Roman', serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
+.gothic-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 40px;
+  background: linear-gradient(135deg, #292524 90%, #191414 100%);
+  border: 8px solid #4b2e05;
+  border-radius: 32px;
+  box-shadow: 0 0 40px #000, 0 0 0 12px #1a1105;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.gothic-corner {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  z-index: 2;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.gothic-corner.top-left { top: -8px; left: -8px; transform: rotate(0deg);}
+.gothic-corner.top-right { top: -8px; right: -8px; transform: rotate(90deg);}
+.gothic-corner.bottom-left { bottom: -8px; left: -8px; transform: rotate(270deg);}
+.gothic-corner.bottom-right { bottom: -8px; right: -8px; transform: rotate(180deg);}
+
+/* Scroll-like button */
+.scroll-button {
+  display: inline-block;
+  background: linear-gradient(90deg, #e9d8a6 0%, #fff9e1 70%, #e9d8a6 100%);
+  color: #5d3b09;
+  font-family: 'UnifrakturCook', 'Times New Roman', serif;
+  font-size: 1.2rem;
+  border: 3px solid #bfa45d;
+  border-radius: 24px 24px 24px 24px / 40px 40px 40px 40px;
+  padding: 12px 36px;
+  margin: 16px 0;
+  box-shadow: 0 3px 18px #0008 inset, 0 2px 0 #bfa45d;
+  position: relative;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  text-shadow: 1px 1px 1px #fff6, 0 1px 3px #bfa45d;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.scroll-button:hover {
+  background: linear-gradient(90deg, #fffbe7 0%, #e9d8a6 100%);
+  box-shadow: 0 6px 18px #000a inset, 0 4px 8px #bfa45d;
+  color: #402a06;
 }
 
-.App-link {
-  color: #61dafb;
+select, option {
+  font-family: 'UnifrakturCook', 'Times New Roman', serif;
+  background: #31281c;
+  color: #e0d6c3;
+  border: 2px solid #7b5c23;
+  border-radius: 6px;
+  padding: 4px 8px;
+  margin-left: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.summon-history {
+  max-height: 200px;
+  overflow-y: auto;
+  border: 2px solid #7b5c23;
+  padding: 8px;
+  background: #222016bb;
+  border-radius: 10px;
+}
+
+.summoned-demon {
+  border: 2px solid #a67d2e;
+  background: #2a1e14cc;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 18px;
+  box-shadow: 0 4px 24px #a67d2e33;
+}
+
+h1, h2, h3 {
+  font-family: 'UnifrakturCook', 'Times New Roman', serif;
+  letter-spacing: 2px;
+  color: #e9d8a6;
+  text-shadow: 0 2px 5px #000, 0 1px 0 #bfa45d;
 }
